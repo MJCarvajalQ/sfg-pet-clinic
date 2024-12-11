@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release.properties" beforeDir="false" afterPath="$PROJECT_DIR$/release.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733814570427</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testing release plugin 4">
+      <option name="closed" value="true" />
+      <created>1733814703981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733814703981</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +193,8 @@
     <MESSAGE value="adding POJOs. Closes #2" />
     <MESSAGE value="testing release plugin 2" />
     <MESSAGE value="testing release plugin 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing release plugin 3" />
+    <MESSAGE value="testing release plugin 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing release plugin 4" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
