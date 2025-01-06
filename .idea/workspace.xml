@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/World.png" afterDir="false" />
+    <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="Src backup">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfg_pet_clinic/SfgPetClinicApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -79,8 +82,8 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gant&quot;,
     &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java&quot;
   }
@@ -225,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735538862051</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Src backup">
+      <option name="closed" value="true" />
+      <created>1735880710401</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735880710401</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,7 +265,8 @@
     <MESSAGE value="Adding base entity. Closes #10" />
     <MESSAGE value="refactoring to common crud interface. closes #11" />
     <MESSAGE value="Impl Map based Services, closes #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impl Map based Services, closes #6" />
+    <MESSAGE value="Src backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Src backup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

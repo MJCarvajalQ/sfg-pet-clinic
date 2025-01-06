@@ -50,4 +50,18 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+
+    <build>
+        <plugins>
+            <!-- Spring Boot Maven Plugin -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>guru.springframework.sfgpetclinic.SfgPetClinicApplication</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
