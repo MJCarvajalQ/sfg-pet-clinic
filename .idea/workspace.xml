@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="Src backup">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfg_pet_clinic/SfgPetClinicApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/World.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +58,7 @@
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -65,29 +68,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SfgPetClinicApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build sfg-pet-clinic.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MySqlIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pet-clinic-data [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pet-clinic-data [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sfg-pet-clinic [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sfg-pet-clinic [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sfg-pet-clinic [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gant&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SfgPetClinicApplication.executor": "Run",
+    "Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build sfg-pet-clinic.executor": "Run",
+    "Gradle.MySqlIntegrationTests.executor": "Run",
+    "Maven.pet-clinic-data [package].executor": "Run",
+    "Maven.pet-clinic-data [validate].executor": "Run",
+    "Maven.sfg-pet-clinic [clean].executor": "Run",
+    "Maven.sfg-pet-clinic [package].executor": "Run",
+    "Maven.sfg-pet-clinic [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
+    "two.files.diff.last.used.folder": "/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfg_pet_clinic.model" />
@@ -102,7 +107,7 @@
       <recent name="$PROJECT_DIR$/pet-clinic-web/src/main/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication">
     <configuration name="SfgPetClinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -118,8 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="guru.springframework.sfgpetclinic.SfgPetClinicApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
+      <module name="pet-clinic-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.sfgpetclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication" />
         <item itemvalue="Application.SfgPetClinicApplication" />
       </list>
     </recent_temporary>
@@ -236,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735880710401</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="After Src backup">
+      <option name="closed" value="true" />
+      <created>1736144202421</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736144202421</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +293,8 @@
     <MESSAGE value="refactoring to common crud interface. closes #11" />
     <MESSAGE value="Impl Map based Services, closes #6" />
     <MESSAGE value="Src backup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Src backup" />
+    <MESSAGE value="After Src backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="After Src backup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
