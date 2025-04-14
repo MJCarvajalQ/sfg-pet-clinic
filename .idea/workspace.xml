@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/montserrat-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/fonts/varela_round-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/images/pets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/images/platform-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/images/spring-logo-dataflow-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/images/spring-logo-dataflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/static/resources/images/spring-pivotal-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,31 +67,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SfgPetClinicApplication.executor": "Run",
-    "Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.Build sfg-pet-clinic.executor": "Run",
-    "Gradle.MySqlIntegrationTests.executor": "Run",
-    "Maven.pet-clinic-data [package].executor": "Run",
-    "Maven.pet-clinic-data [validate].executor": "Run",
-    "Maven.sfg-pet-clinic [clean].executor": "Run",
-    "Maven.sfg-pet-clinic [package].executor": "Run",
-    "Maven.sfg-pet-clinic [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic/pet-clinic-web/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Colors",
-    "two.files.diff.last.used.folder": "/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SfgPetClinicApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.Build sfg-pet-clinic.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MySqlIntegrationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pet-clinic-data [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.pet-clinic-data [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sfg-pet-clinic [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sfg-pet-clinic [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sfg-pet-clinic [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/bootstrap-scss-setup&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic/pet-clinic-web/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfg_pet_clinic.model" />
@@ -379,5 +370,20 @@
     <MESSAGE value="Refactored Map Imp to Abstract ID Generation. Closes #23." />
     <option name="LAST_COMMIT_MESSAGE" value="Refactored Map Imp to Abstract ID Generation. Closes #23." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/SfgPetClinicApplication.java</url>
+          <line>8</line>
+          <properties class="guru.springframework.sfgpetclinic.SfgPetClinicApplication" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
