@@ -1,20 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="UTF-8"/>
-    <title>List of Pet Owners</title>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{fragments/layout :: layout (~{::body}, 'owners')}">
 
-    <!-- Load compiled Bootstrap CSS -->
-    <link rel="stylesheet" th:href="@{/resources/css/main.css}" />
-
-</head>
 <body>
 <!--/*@thymesVar id="owner" type="guru.springframework.sfgpetclinic.model.Owner"*/-->
 <h1 th:text="'List of Owners'">Owners List</h1>
 
+<div class="row">
+    <div class="col-md-12 text-center">
+        <img class="img-responsive" th:src="@{/resources/images/pets.png}" alt="Pets"/>
+    </div>
+</div>
 
-
-<table>
+<table class="table table-striped mt-4">
     <thead>
     <tr>
         <th>Id</th>
@@ -30,5 +29,13 @@
     </tr>
     </tbody>
 </table>
+
+<div class="footer-bar">
+    <span>Powered by PetClinic</span>
+    <button class="btn btn-primary">Help</button>
+    <button class="btn btn-secondary">Contact</button>
+</div>
+
+
 </body>
 </html>
