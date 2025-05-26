@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/PetTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetTypeMapService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Owner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -371,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748083177360</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added properties. Closes #28">
+      <option name="closed" value="true" />
+      <created>1748083738371</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1748083738371</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +397,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="adding POJOs. Closes #2" />
     <MESSAGE value="testing release plugin 2" />
     <MESSAGE value="testing release plugin 3" />
     <MESSAGE value="testing release plugin 4" />
@@ -413,7 +421,8 @@
     <MESSAGE value="Added layout to vets page. Closes #21" />
     <MESSAGE value="Added visits, updated owner with pet relationship. Closes #26" />
     <MESSAGE value="Added specialities, added to vet. Closes #27" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added specialities, added to vet. Closes #27" />
+    <MESSAGE value="Added properties. Closes #28" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added properties. Closes #28" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
