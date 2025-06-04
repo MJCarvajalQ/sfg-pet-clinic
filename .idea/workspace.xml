@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a551b78e-3f2f-412f-a2e9-b8bdbe6ca176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/SpecialtiesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialityMapService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/SpecialtiesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/SpecialtyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialityMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialityMapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetServiceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/VetServiceMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,31 +67,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SfgPetClinicApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.Build sfg-pet-clinic.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.MySqlIntegrationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pet-clinic-data [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.pet-clinic-data [validate].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sfg-pet-clinic [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sfg-pet-clinic [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.sfg-pet-clinic [validate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic/pet-clinic-web/src/main/resources&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SfgPetClinicApplication.executor": "Run",
+    "Application.guru.springframework.sfgpetclinic.SfgPetClinicApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gradle.Build sfg-pet-clinic.executor": "Run",
+    "Gradle.MySqlIntegrationTests.executor": "Run",
+    "Maven.pet-clinic-data [package].executor": "Run",
+    "Maven.pet-clinic-data [validate].executor": "Run",
+    "Maven.sfg-pet-clinic [clean].executor": "Run",
+    "Maven.sfg-pet-clinic [package].executor": "Run",
+    "Maven.sfg-pet-clinic [validate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic/pet-clinic-web/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "two.files.diff.last.used.folder": "/Users/Majo/src/springframework.guru/courses/spring5/sfg-pet-clinic-comparison/src/test/java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.sfg_pet_clinic.model" />
@@ -404,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748516314091</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added Specialties Map Impl. Closes #31">
+      <option name="closed" value="true" />
+      <created>1748948358227</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1748948358227</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +432,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="testing release plugin 5" />
     <MESSAGE value="adding the release plugin" />
     <MESSAGE value="Implement interfaces for services. Closes #5" />
     <MESSAGE value="Adding base entity. Closes #10" />
@@ -446,7 +456,8 @@
     <MESSAGE value="Added PetTypeService. Closes #29" />
     <MESSAGE value="Added PetTypes to bootstrap. Closes #32" />
     <MESSAGE value="Added Pets and Contact info to owners on startup. Closes #33" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Pets and Contact info to owners on startup. Closes #33" />
+    <MESSAGE value="Added Specialties Map Impl. Closes #31" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Specialties Map Impl. Closes #31" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
